@@ -107,7 +107,6 @@ footer {
   text-align: center;
   background: #666666;
   border-top: 8px solid #4aaaa5;
-  height: 50px;
 }
 
 h3, h2 {
@@ -225,13 +224,13 @@ input[type=submit] {
   nav {
     float: right;
     margin-top: 25px;
-    margin-right: 50px;
+    margin-right: 63px;
   }
  
 
 section.main-section {
     float: none;
-    max-width: 535px;
+    max-width: 587px;
     padding-bottom: 5px;
     padding-top: 5px;
     background: #ffffff;
@@ -255,8 +254,17 @@ section.main-section {
   padding: 30px;
 } 
 
-footer {
-  display: block;
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center; 
+  font-size: 12px;
+  color: #cccccc;
+  text-align: center;
+  background: #666666;
+  border-top: 8px solid #4aaaa5;
 }
 
 .hide {
